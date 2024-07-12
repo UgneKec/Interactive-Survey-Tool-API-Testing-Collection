@@ -22,7 +22,7 @@ This repository contains the Postman collection for testing the back-end API of 
 
 Open Postman and import the Apklausų valdymo įrankis API.postman_collection.json file.
 
-##Running Tests
+## Running Tests
 
 **Using Postman**
 1. Open Postman.
@@ -32,7 +32,7 @@ Open Postman and import the Apklausų valdymo įrankis API.postman_collection.js
 
 **Using Newman**
 1. Make sure you have Newman installed. If not, install it using npm:
-2. 
+
 ```bash
 npm install -g newman
 ```
@@ -43,7 +43,7 @@ npm install -g newman
 newman run Apklausų valdymo įrankis API.postman_collection.json
 ```
 
-##Collection Structure
+## Collection Structure
 
 The collection is structured to cover various aspects of the Interactive Survey Tool's API, including:
 
@@ -60,7 +60,7 @@ The collection is structured to cover various aspects of the Interactive Survey 
 - Survey Deletion
 Each folder in the collection corresponds to a specific functionality and contains requests with pre-configured tests to validate the API responses.
 
-##Test Results
+## Test Results
 
 An example test run can be found in the newman folder, which includes detailed reports of the API tests. Below is a summary of the test results:
 
